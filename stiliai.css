@@ -1,0 +1,155 @@
+body {
+  background-color: #f3eeee;
+  margin: 0 5% 0 5%;
+  
+}
+
+article {
+  margin-left: 10px;
+  background-color: #e3e3e3;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  background-color: whitesmoke;
+  border: solid;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 6px;
+list-style: none;
+cursor: pointer;
+box-shadow: 20px 20px 10px rgba(0, 0, 0, 0,3);
+transition: box-shadow 0,3s ease;
+}
+
+.button1 { padding: 10px 14px; }
+.button2 { padding: 10px 12px; }
+
+button:hover {
+  background-color: yellow ;
+  }
+
+header {
+  text-align: center;
+  font-size: 30px;
+  border: solid 4px;
+  border-color: blueviolet;
+  color: lightcyan;
+  background-color: rgb(21, 54, 112);
+  border-radius: 8%;
+  padding: 10px 0 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kas {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 50%;
+}
+
+.kas h4 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+   gap: 10px;
+  
+}
+
+.nav {
+  background-color: #bcb8b8;
+  font-size: 20px;
+  margin-top: 18px;
+  border-radius: 8px;
+  
+}
+.nav, .navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 0;
+  gap: 20px;
+  margin: 0;
+  
+
+}
+
+.naujienos h4 {
+  text-align: center;
+}
+
+.navi {
+  width: 90px;
+}
+
+.nav .navigation li {
+  display: inline-block;
+  margin: 0;
+  align-items: baseline;
+  flex: 1;
+        
+}
+.nav .navigation li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(22, 3, 3);
+  padding: 10px;
+  border: solid thin;
+  padding: 5px;
+  background-color: white;
+  border-radius: 4px;
+  height: 100%;
+  
+}
+.nav .navigation li a:hover {
+  color: rgb(181, 28, 17);
+}
+
+.new {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+ .pirmas {
+  padding: 10px 0px;
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+    gap: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sekcija {
+  display: grid;
+  grid-template-areas:
+  "pagrindas naujienos" ;
+  grid-template-columns: 4fr 1fr;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+

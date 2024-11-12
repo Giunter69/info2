@@ -1,0 +1,80 @@
+@import 'stiliai.css';
+$primary-color: #bcb8b8;
+$secondary-color: rgb(181, 28, 17);
+$tertiary-color: #f3eeee;
+
+body { background-color: $tertiary-color;
+    margin: 0 5% 0 5%;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    border: solid 4px;
+        border-color: blueviolet;
+    color: lightcyan;
+    background-color: rgb(21, 54, 112);
+    border-radius: 8%;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+}
+
+    .nav {
+                background-color: $primary-color;
+        font-size: 20px;
+        margin-top: 18px;
+        border-radius: 8px;
+        height: 50px;
+
+        .navigation {
+            list-style: none;
+                display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    gap: 20px;
+    margin: 0;
+
+    .navigation li {
+        flex: 1 1 0;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .li-pirmas .li-antras .li-third .li-ketvirtas {
+width: 88px;
+      }
+
+            li {
+                display: inline-block;
+                margin: 0;
+                align-items: baseline;
+                    
+                a {
+                    text-decoration: none;
+                    color: rgb(22, 3, 3);
+                    padding: 10px 20px 0px 20px;
+                    border: solid thin;
+                    padding: 5px;
+                    background-color: white;
+                    border-radius: 4px;
+    
+                    .navi {
+                        width: 90px;
+                    }
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+
+    }
+    section {
+        .pirmas3 {
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+    }
+    
