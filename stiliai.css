@@ -14,6 +14,17 @@ article {
   gap: 10px;
 }
 
+.autoriai {
+  font-size: x-large;
+}
+
+.autors {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  padding: 0px;
+}
+
 .button {
   background-color: whitesmoke;
   border: solid;
@@ -38,7 +49,11 @@ button:hover {
   background-color: yellow ;
   }
 
-header {
+h4 {
+  text-align: center;
+}
+
+  header {
   text-align: center;
   font-size: 30px;
   border: solid 4px;
@@ -58,7 +73,7 @@ header {
   width: 50%;
 }
 
-.kas h4 {
+.kas {
   text-align: center;
 }
 
